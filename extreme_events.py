@@ -12,9 +12,13 @@ def check_extreme_event(value):
 
     """
     if value > 100:
-        print("This is an extreme event, precipitation is greater than 100mm. Prepare for a flood")
+        print(
+            "This is an extreme event, precipitation is greater than 100mm. Prepare for a flood."
+        )
     else:
-        print("This is not an extreme event, precipitation is less than 100mm. No need to worry")
+        print(
+            "This is not an extreme event, precipitation is less than 100mm. No need to worry."
+        )
 
 check_extreme_event(101)
 check_extreme_event(1)
